@@ -5,12 +5,14 @@ description: >-
 baseurl: "/AI4NATURE"   # matches your repository name
 url: "https://cdistante.github.io"   # replace YOUR_USERNAME
 markdown: kramdown
-theme: minima   # we'll keep the default theme for now
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+sass:
+  style: compressed
 # Workshop details
-workshop_date: "August 31, 2026"
-workshop_location: "Lecce, Italy (hybrid mode)"
+workshop_date: "31 August 2026"
+workshop_location: "Convitto Palmieri, Lecce, Italy"
+workshop_google_maps: "https://maps.app.goo.gl/s1TkiG2f3UwST8cy7"
 logo: "/assets/images/logo.png"
