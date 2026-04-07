@@ -3,7 +3,7 @@ description: >-
   Computer Vision and AI for Environmental Monitoring, 
   Biodiversity Analysis, and Ecosystem Restoration
 baseurl: "AI4NATURE/"   # matches your repository name
-url: "https://ilyesbenaissa.github.io"   # replace YOUR_USERNAME
+url: "https://www.ai4nature.tech"   # replace YOUR_USERNAME
 markdown: kramdown
 theme: minima
 plugins:
