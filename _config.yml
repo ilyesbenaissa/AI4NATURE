@@ -2,7 +2,7 @@ title: AI4Nature @ AVSS 2026
 description: >-
   Computer Vision and AI for Environmental Monitoring, 
   Biodiversity Analysis, and Ecosystem Restoration
-baseurl: "/"   # matches your repository name
+baseurl: "AI4NATURE/"   # matches your repository name
 url: "https://ilyesbenaissa.github.io"   # replace YOUR_USERNAME
 markdown: kramdown
 theme: minima
