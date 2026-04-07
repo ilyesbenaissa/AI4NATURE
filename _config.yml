@@ -1,0 +1,16 @@
+title: AI4Nature @ AVSS 2026
+description: >-
+  Computer Vision and AI for Environmental Monitoring, 
+  Biodiversity Analysis, and Ecosystem Restoration
+baseurl: "/AI4NATURE"   # matches your repository name
+url: "https://cdistante.github.io"   # replace YOUR_USERNAME
+markdown: kramdown
+theme: minima   # we'll keep the default theme for now
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Workshop details
+workshop_date: "August 31, 2026"
+workshop_location: "Lecce, Italy (hybrid mode)"
+logo: "/assets/images/logo.png"
