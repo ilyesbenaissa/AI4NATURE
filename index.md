@@ -42,9 +42,9 @@ in addressing these challenges. In alignment with AVSS 2026's theme of "Expandin
 This workshop is sponsored by the **ROMEO project**.
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
-  <img src="{{ site.baseurl }}/assets/images/romeo.png" alt="Ocean Decade Logo" style="width: 180px; height: auto;">
-  <img src="{{ site.baseurl }}/assets/images/sbep_logo.png" alt="SBEP Logo" style="width: 180px; height: auto;">
-  <img src="{{ site.baseurl }}/assets/images/ocean_decade_logo.png" alt="Ocean Decade Logo" style="width: 180px; height: auto;">
+  <img src="{{ site.baseurl }}/assets/images/romeo.png" alt="Ocean Decade Logo" style="width: 100px; height: auto;">
+  <img src="{{ site.baseurl }}/assets/images/sbep_logo.png" alt="SBEP Logo" style="width: 280px; height: auto;">
+  <img src="{{ site.baseurl }}/assets/images/ocean_decade_logo.png" alt="Ocean Decade Logo" style="width: 280px; height: auto;">
 </div>
 
 ## Contact
