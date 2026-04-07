@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<!-- force rebuild -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI4Nature Workshop</title>
+
+    <!-- Base path to _site -->
+    <base href="/_site/">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,15 +23,16 @@
 
 <header class="glass-nav">
     <div class="nav-container">
-        <a href="/" class="nav-logo">
-            <img src="assets/images/logo.png" alt="AI4Nature Logo" class="logo-img">
+        <a href="./" class="nav-logo">
+            <img src="assets/images/logo.png" class="logo-img">
             <span>AI4Nature</span>
         </a>
+
         <nav class="nav-links">
-            <a href="/" class="active">Home</a>
-            <a href="/cfp">Call for Papers</a>
-            <a href="/program">Program</a>
-            <a href="/committee">Committee</a>
+            <a href="./" class="active">Home</a>
+            <a href="cfp">Call for Papers</a>
+            <a href="program">Program</a>
+            <a href="committee">Committee</a>
         </nav>
     </div>
 </header>
@@ -44,7 +47,7 @@
 
         <div class="hero-details">
             <span>📅 31 August 2026</span>
-            <span>📍 Convitto Palmieri, Lecce, Italy</span>
+            <span>📍 Lecce, Italy</span>
         </div>
 
         <a href="#about" class="btn btn-primary mt-4">Discover More</a>
@@ -56,96 +59,52 @@
 
         <h1>AI4Nature: Computer Vision and AI for Environmental Monitoring, Biodiversity Analysis, and Ecosystem Restoration</h1>
 
-        <div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
+        <div style="display:flex; gap:2rem; align-items:center; justify-content:space-between;">
             <div>
                 <p><strong>Acronym:</strong> AI4Nature@AVSS</p>
                 <p><strong>Date:</strong> 31 August 2026</p>
-                <p><strong>Location:</strong> Convitto Palmieri, Lecce, Italy</p>
-                <p><strong>Map:</strong> <a href="https://maps.app.goo.gl/s1TkiG2f3UwST8cy7">Open in Google Maps</a></p>
-                <p><strong>Part of:</strong> <a href="https://www.avss2026.org">AVSS 2026</a></p>
+                <p><strong>Location:</strong> Lecce, Italy</p>
             </div>
 
-            <img src="assets/images/logo.png" alt="Logo" style="width: 280px;">
+            <img src="assets/images/logo.png" style="width:280px;">
         </div>
 
         <h2>Abstract</h2>
-        <p>
-            <em>
-            The global climate and biodiversity crises demand a paradigm shift in how we monitor, analyze,
-            and protect our natural world. This workshop explores the transformative role of computer vision,
-            deep learning, and multi-modal systems for biodiversity monitoring, environmental protection,
-            and ecosystem restoration.
-            </em>
-        </p>
+        <p><em>
+            This workshop explores computer vision and AI methods for biodiversity monitoring,
+            environmental protection, and ecosystem restoration.
+        </em></p>
 
         <h2>Topics</h2>
         <ol>
-            <li><strong>Computer Vision for Biodiversity Analysis</strong></li>
-            <li><strong>Multi-Modal Environmental Monitoring</strong></li>
-            <li><strong>Autonomous Systems for Ecology</strong></li>
-            <li><strong>AI for Ecosystem Health and Restoration</strong></li>
+            <li>Computer Vision for Biodiversity</li>
+            <li>Multi-Modal Monitoring</li>
+            <li>Autonomous Ecology Systems</li>
+            <li>Ecosystem Health AI</li>
         </ol>
 
         <h2>Important Dates</h2>
         <table>
-            <thead>
-                <tr>
-                    <th>Event</th>
-                    <th>Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Paper submission deadline</td>
-                    <td>May 20, 2026</td>
-                </tr>
-                <tr>
-                    <td>Notification of acceptance</td>
-                    <td>June 10, 2026</td>
-                </tr>
-                <tr>
-                    <td>Camera-ready deadline</td>
-                    <td>July 1, 2026</td>
-                </tr>
-                <tr>
-                    <td><strong>Workshop date</strong></td>
-                    <td><strong>August 31, 2026</strong></td>
-                </tr>
-            </tbody>
+            <tr><td>Submission</td><td>May 20, 2026</td></tr>
+            <tr><td>Notification</td><td>June 10, 2026</td></tr>
+            <tr><td>Camera-ready</td><td>July 1, 2026</td></tr>
+            <tr><td>Workshop</td><td>Aug 31, 2026</td></tr>
         </table>
-
-        <h2>Sponsor Event</h2>
-        <p>This workshop is sponsored by the <strong>ROMEO project</strong>.</p>
-
-        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
-            <img src="assets/images/romeo.png" style="width: 100px;">
-            <img src="assets/images/sbep_logo.png" style="width: 250px;">
-            <img src="assets/images/ocean_decade_logo.png" style="width: 250px;">
-        </div>
-
-        <h2>Contact</h2>
-        <p><a href="mailto:cosimo.distante@cnr.it">cosimo.distante@cnr.it</a></p>
 
     </div>
 </main>
 
 <footer class="site-footer">
     <div class="footer-container">
-        <div class="footer-info">
+        <div>
             <h3>AI4Nature @ AVSS 2026</h3>
-            <p>31 August 2026 | Lecce, Italy</p>
-            <a href="https://maps.app.goo.gl/s1TkiG2f3UwST8cy7" target="_blank">Open in Maps</a>
+            <p>Lecce, Italy</p>
         </div>
 
-        <div class="footer-links">
-            <a href="/cfp">Call for Papers</a>
-            <a href="/program">Program</a>
-            <a href="mailto:cosimo.distante@cnr.it">Contact</a>
+        <div>
+            <a href="cfp">CFP</a>
+            <a href="program">Program</a>
         </div>
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2026 AI4Nature Workshop</p>
     </div>
 </footer>
 
